@@ -1,0 +1,145 @@
+:root {
+    --league: 'League Spartan', sans-serif;
+    --very-dark-magenta: hsl(300, 43%, 22%);
+    --soft-pink: hsl(333, 80%, 67%);
+    --dark-grayish-magenta: hsl(303, 10%, 53%);
+    --light-grayish-magenta: hsl(300, 24%, 96%);
+    --white: hsl(0, 0%, 100%);
+}
+
+html {
+    box-sizing:border-box;
+    font-size: 1em;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: var(--league);
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3.5em 0;
+    padding: 1.8em;
+    color: var(--very-dark-magenta);
+    background-color: var(--white);
+    background-image: url('/images/bg-pattern-top-mobile.svg'), url('/images/bg-pattern-bottom-mobile.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    background-color: hsla(300, 43%, 22%, 0.623);
+    border-radius: 1em;
+    padding: 0.2em 1em;
+}
+
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-text h1{    
+    font-size: 2.5rem;
+    line-height: 0.8;
+}
+
+
+.intro-text .intro-description {
+    font-size: 1.12rem;
+    padding: 1.5em 0;
+    line-height: 1.4;
+    color: var(--dark-grayish-magenta);
+    font-weight: 500;
+}
+
+.rating-card {
+    text-align: center;
+    background-color: var(--light-grayish-magenta);
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: .5em;
+}
+
+
+.rating-card strong {
+    font-size: 1.05rem;
+}
+
+.rating-card .rating-stars {
+    display: flex;
+    list-style-type: none;
+    gap: .6em;
+    justify-content: center;
+    padding-bottom: .5em;
+}
+
+.review-card {
+    background-color: var(--very-dark-magenta);
+    margin: 1em 0;
+    border-radius: .5em;
+    color: var(--light-grayish-magenta);
+    padding: 1.8em;
+    transition: .3s ease-in-out;
+}
+
+.section-2 {
+    margin: 3.5em 0;
+}
+
+.review-card .profile-info {
+    display: flex;
+    gap: 1.5em;
+    padding: 1em 0;
+}
+
+.profile-info .profile-picture {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+}
+
+.profile-info h2 {
+    font-size: 1.05rem;
+}
+
+.profile-info small {
+    color: var(--soft-pink);
+    font-size: 1.065rem;
+
+}
+
+.review-card .user-comment-section {
+    padding: .6em 0;
+}
+
+.review-card .user-comment {
+    font-size: 1.1rem;
+    line-height: 1.3;
+    font-weight: 400;
+}
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: var(--light-grayish-magenta);
+  }
+.attribution a {
+    color: var(--very-dark-magenta);
+  }

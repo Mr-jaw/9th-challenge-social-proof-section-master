@@ -1,0 +1,118 @@
+@media (min-width:40em){
+    body {
+        padding: 0 1em;
+    }
+}
+
+@media (min-width: 54em) {
+    
+    body {
+        position: relative;
+        padding: 2em;
+        margin: 0;
+        background-image: url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-position: top, bottom;
+        background-position-x: -8%, 90%;
+    }
+
+    main {
+        max-width: 73em;
+    }
+
+    .section-1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .intro-text {
+        text-align: left;
+    }
+
+    .intro-text h1 {
+        width: 8em;
+        line-height: .9;
+    }
+
+    .intro-text .intro-description {
+        width: 25em;
+    }
+
+    .rating {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        place-items: flex-end;
+    }
+
+    .rating-card {
+        position: absolute;
+        display: flex;
+        gap: 1em;
+        padding: 1.1em 1em;
+        margin: 0 0 0 0;;
+        width: 100%;        
+    }
+
+    .rating-card-1 {
+        grid-column: 1/11;
+        top: .5em;
+    }
+
+    .rating-card-2 {
+        grid-column: 2/12;
+        top: 4.9em;
+    }
+
+    .rating-card-3 {
+        grid-column: 3/13;
+        top: 9em;
+    }
+
+    .rating-card .rating-stars {
+        padding-bottom: 0; 
+        height: 0;
+    }
+
+    .rating-card strong {
+        height: 1em;
+    }
+
+    .section-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        gap: 2em;
+        margin: 2.5em 0 0 0;
+    }
+
+    .review-card {
+        margin: 1em 0 0 0;
+    }
+
+    .review-card-1 {
+        grid-row: 1/11;
+    }
+
+    .review-card-2 {
+        grid-row: 2/12;
+        transform: translateY(-1em);
+    }
+    
+    .review-card-3 {
+        grid-row: 3/13;
+        transform: translateY(-2em);
+    }
+
+    .section-2 .review-card:nth-child(2) {
+        padding: 1.8em 2.15em;
+    }
+}
+
+@media (min-width: 63em) {
+    .rating-card {
+        gap: 2.5em;
+        padding: 1.1em 2em;
+    }
+    
+}
