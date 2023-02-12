@@ -73,6 +73,7 @@ footer {
     margin: 1em 0;
     padding: 1em;
     border-radius: .5em;
+    transition: .3s ease-in-out;
 }
 
 
