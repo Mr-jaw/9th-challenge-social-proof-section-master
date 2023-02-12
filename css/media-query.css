@@ -50,24 +50,24 @@
         position: absolute;
         display: flex;
         gap: 1em;
-        padding: 1.1em 1em;
+        padding: 1.15em 1em;
         margin: 0 0 0 0;;
-        width: 100%;        
+        width: 96%;        
     }
 
     .rating-card-1 {
         grid-column: 1/11;
-        top: .5em;
+        top: 1.5em;
     }
 
     .rating-card-2 {
         grid-column: 2/12;
-        top: 4.9em;
+        top: 5.8em;
     }
 
     .rating-card-3 {
         grid-column: 3/13;
-        top: 9em;
+        top: 10.05em;
     }
 
     .rating-card .rating-stars {
@@ -84,11 +84,11 @@
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(12, 1fr);
         gap: 2em;
-        margin: 2.5em 0 0 0;
+        margin: 1.5em 0 0 0;
     }
 
     .review-card {
-        margin: 1em 0 0 0;
+        margin: auto 0;
     }
 
     .review-card-1 {
@@ -113,7 +113,7 @@
 @media (min-width: 63em) {
     .rating-card {
         gap: 2.5em;
-        padding: 1.1em 2em;
+        padding: 1.15em 2em;
     }
     
 }

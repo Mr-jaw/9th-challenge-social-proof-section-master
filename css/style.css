@@ -71,7 +71,7 @@ footer {
     text-align: center;
     background-color: var(--light-grayish-magenta);
     margin: 1em 0;
-    padding: 1em;
+    padding: 0.7em;
     border-radius: .5em;
     transition: .3s ease-in-out;
 }
