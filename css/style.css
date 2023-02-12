@@ -81,7 +81,7 @@ footer {
     font-size: 1.05rem;
 }
 
-.rating-card .rating-stars {
+.rating-card ul {
     display: flex;
     list-style-type: none;
     gap: .6em;
