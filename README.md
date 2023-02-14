@@ -27,8 +27,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-social-proof-section-using-css-grid-and-flex-bHQ2lELljN)
+- Live Site URL: [Live site](https://endearing-toffee-2e0187.netlify.app/)
 
 ## My process
 
